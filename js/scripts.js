@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $("button#meow").click(function() {
+    debugger;
     $("img#main").show();
     $("img#bark").hide();
     $("img#purr").hide();
@@ -11,17 +12,17 @@ $(document).ready(function() {
     $("img#meow").toggle();
     $("img#main").toggle();
 
-    $("li").next().remove();
+    $("li").next().hide();
 
-    // $("ul#mittens").children("li").first().click(function() {
-    //   $(this).remove();
-    //   $("ul#spot").children("li").first().remove();
-    // });
-    //
-    // $("ul#spot").children("li").first().click(function() {
-    //   $(this).remove();
-    //   $("ul#mittens").children("li").first().remove();
-    // });
+  //   $("ul#mittens").children("li").first().click(function() {
+  //     $(this).remove();
+  //     $("ul#spot").children("li").first().remove();
+  //   });
+  //
+  //   $("ul#spot").children("li").first().click(function() {
+  //     $(this).remove();
+  //     $("ul#mittens").children("li").first().remove();
+  //   });
   });
 
   $("button#bark").click(function() {
