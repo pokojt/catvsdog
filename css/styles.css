@@ -1,0 +1,40 @@
+body {
+    background-color: #232a35;
+    color:#FFF7ED;
+    text-align: center;
+}
+.header {
+  text-align: center;
+  margin: 5em;
+}
+
+.header h1 {
+  font-size: 6em;
+}
+
+img {
+  height:300px;
+  width:auto;
+}
+
+.imgtog {
+  display: none;
+}
+
+.btn {
+  margin:1em;
+}
+
+
+#bttn, #dialog {
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+#dialog ul {
+  list-style-type: none;
+}
+
+.unstyled {
+  padding-right: 40px;
+}

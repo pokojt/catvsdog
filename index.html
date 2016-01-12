@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Cat vs. Dog</title>
+  </head>
+  <body>
+     <div class="container">
+       <div class="header">
+         <h1>Mittens vs. Spot</h1>
+         <br>
+         <img id="main" src="img/catvdog.jpg">
+         <img class="imgtog" id="meow" src="img/meow.jpg">
+         <img class="imgtog" id="bark" src="img/bark.jpg">
+         <img class="imgtog" id="purr" src="img/purr.jpg">
+         <img class="imgtog" id="nap" src="img/nap.png">
+         <h2><em>A battle of the century</em></h2>
+       </div>
+       <hr>
+
+       <!-- Buttons -->
+        <section id="bttn">
+         <div class="container">
+           <div class"row">
+             <div class="col col-md-3">
+               <button class="btn btn-lg btn-warning" id="meow">Make Mittens Meow</button>
+             </div>
+             <div class="col col-md-3">
+               <button class="btn btn-lg btn-warning" id="bark">Make Spot Bark</button>
+             </div>
+             <div class="col col-md-3">
+               <button class="btn btn-lg btn-warning" id="purr">Make Mittens Purr</button>
+             </div>
+             <div class="col col-md-3">
+               <button class="btn btn-lg btn-warning" id="nap">Make Spot Nap</button>
+             </div>
+           </div>
+         </div>
+       </section>
+       <hr>
+
+
+       <!-- Dialog -->
+       <section id="dialog">
+         <div class="row">
+           <div class="col-md-6">
+             <h2>Mittens said:</h2>
+             <ul class="unstyled" id="mittens">
+
+             </ul>
+           </div>
+
+           <div class="col-md-6">
+             <h2>Spot said:</h2>
+             <ul class="unstyled" id="spot">
+
+             </ul>
+           </div>
+         </div>
+       </section>
+     </div>
+   </body>
+</html>
